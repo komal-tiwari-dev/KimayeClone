@@ -10,42 +10,7 @@ const Cart = () => {
   );
 
   const navigate=useNavigate()
-  //   let product = [
-  //     {
-  //       image_url:
-  //         "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/Cherry--_-blueberry_219x.progressive.jpg?v=1654851019",
-  //       name: "Kimaye Cherry- Blueberry Combo",
-  //       weight: "250g",
-  //       price: 140,
-  //       quantity: 2,
-  //     },
-  //     {
-  //       image_url:
-  //         "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/image_219x.progressive.jpg?v=1620889338",
-  //       name: "Kimaye Jamun (250 gm)",
-  //       weight: "500g",
-  //       price: 250,
-  //       quantity: 7,
-  //     },
-  //     {
-  //       image_url:
-  //         "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/image_219x.progressive.jpg?v=1620889338",
-  //       name: "Kimaye Jamun (250 gm)",
-  //       weight: "500g",
-  //       price: 250,
-  //       quantity: 7,
-  //     },
-  //     {
-  //       image_url:
-  //         "https://cdn.shopify.com/s/files/1/0449/5225/6667/products/image_219x.progressive.jpg?v=1620889338",
-  //       name: "Kimaye Jamun (250 gm)",
-  //       weight: "500g",
-  //       price: 250,
-  //       quantity: 7,
-  //     },
-  //   ];
-  //   localStorage.setItem("ProdData", JSON.stringify(product));
-
+  
   let SubTotal = 0;
 
   for (let i = 0; i < prod.data.length; i++) {
